@@ -1,0 +1,50 @@
+.PageNation_Container {
+  display: flex;
+  align-items: center;
+}
+
+.PageNation_PageList {
+  display: flex;
+  font-size: var(--font-size--h6);
+}
+
+.PageNation_Container > span {
+  margin: 0 8px;
+  font-size: var(--font-size--h6);
+}
+
+.PageNation_Button-previous {
+  background: none;
+  border: none;
+  font-size: var(--font-size--h5);
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.PageNation_Button-next {
+  background: none;
+  border: none;
+  font-size: var(--font-size--h5);
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.PageNation_Container-lastNum {
+  cursor: pointer;
+}
+
+.PageNation_PageList li {
+  margin: 0 1px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.PageNation_PageList li:hover {
+  background-color: #f6f4f4;
+}
